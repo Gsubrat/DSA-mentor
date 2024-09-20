@@ -15,9 +15,8 @@ class Solution {
             TreeNode temp = queue.poll();
             temp.right = queue.peek();
             temp.left = null;
-            // temp.right = queue.peek();
+            
         }
-
         
     }
 }
